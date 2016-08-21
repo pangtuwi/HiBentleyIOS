@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--My Voice-->
+        <!--Voice-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="VoiceViewController" customModule="HiBentley" customModuleProvider="target" sceneMemberID="viewController">
@@ -66,7 +66,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <tabBarItem key="tabBarItem" title="My Voice" image="speak" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Voice" image="speak" id="acW-dT-cKf"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
@@ -79,6 +79,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Type-->
+        <scene sceneID="GZ5-NB-Cq6">
+            <objects>
+                <viewController id="XK8-FJ-dtH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iGf-7q-3Us"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nzc-WD-HWr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H4T-Lb-VH1">
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdT-ug-l5X">
+                                <rect key="frame" x="277" y="179" width="46" height="30"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Type" image="Text" id="zSG-bQ-FwL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hfm-6p-eus" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1373" y="-306"/>
         </scene>
         <!--Log In-->
         <scene sceneID="wg7-f3-ORb">
@@ -381,6 +408,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="XK8-FJ-dtH" kind="relationship" relationship="viewControllers" id="CIb-Er-m3X"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="iW6-n8-e8h" kind="relationship" relationship="viewControllers" id="6wK-2q-GUu"/>
                     </connections>
@@ -392,6 +420,7 @@
     </scenes>
     <resources>
         <image name="Bentley" width="160" height="58"/>
+        <image name="Text" width="30" height="30"/>
         <image name="VIN" width="30" height="30"/>
         <image name="email" width="30" height="30"/>
         <image name="first" width="30" height="30"/>
