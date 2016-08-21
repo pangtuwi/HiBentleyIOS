@@ -6,6 +6,8 @@
 //  Copyright © 2016 BentleyMotors. All rights reserved.
 //
 
+// Resources
+// Reference  https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0
 // Basic iOS and Swift https://www.raywenderlich.com/store/ios-apprentice
 // Singleton design pattern : https://www.raywenderlich.com/86477/introducing-ios-design-patterns-in-swift-part-1
 // Icons by icon slayer http://www.gieson.com/Library/projects/utilities/icon_slayer/#.V7i97JMrIyk
