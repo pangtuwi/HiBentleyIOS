@@ -1,0 +1,6 @@
+framework module Pods_HiBentley {
+  umbrella header "Pods-HiBentley-umbrella.h"
+
+  export *
+  module * { export * }
+}

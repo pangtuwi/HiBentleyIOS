@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		001375DF1D5C61AB0005EC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001375DE1D5C61AB0005EC6F /* AppDelegate.swift */; };
-		001375E11D5C61AB0005EC6F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001375E01D5C61AB0005EC6F /* FirstViewController.swift */; };
-		001375E31D5C61AB0005EC6F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001375E21D5C61AB0005EC6F /* SecondViewController.swift */; };
+		001375E11D5C61AB0005EC6F /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001375E01D5C61AB0005EC6F /* VoiceViewController.swift */; };
+		001375E31D5C61AB0005EC6F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001375E21D5C61AB0005EC6F /* LoginViewController.swift */; };
 		001375E61D5C61AB0005EC6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001375E41D5C61AB0005EC6F /* Main.storyboard */; };
 		001375E81D5C61AB0005EC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001375E71D5C61AB0005EC6F /* Assets.xcassets */; };
 		001375EB1D5C61AB0005EC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001375E91D5C61AB0005EC6F /* LaunchScreen.storyboard */; };
+		006695E91D658F54005470C3 /* CDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006695E81D658F54005470C3 /* CDS.swift */; };
+		00F833A41D6658A90027C29C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00F833A31D6658A90027C29C /* GoogleService-Info.plist */; };
+		00F833A71D66600D0027C29C /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F833A61D66600D0027C29C /* LibraryAPI.swift */; };
+		00F833A91D679AFF0027C29C /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F833A81D679AFF0027C29C /* QRViewController.swift */; };
+		639E9C95116A3872FF7D8614 /* Pods_HiBentley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040474277DC04E00F4548CA /* Pods_HiBentley.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		001375DB1D5C61AB0005EC6F /* HiBentley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBentley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		001375DE1D5C61AB0005EC6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		001375E01D5C61AB0005EC6F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		001375E21D5C61AB0005EC6F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		001375E01D5C61AB0005EC6F /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		001375E21D5C61AB0005EC6F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		001375E51D5C61AB0005EC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		001375E71D5C61AB0005EC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001375EA1D5C61AB0005EC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		001375EC1D5C61AB0005EC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0040474277DC04E00F4548CA /* Pods_HiBentley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiBentley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		006695E81D658F54005470C3 /* CDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDS.swift; sourceTree = "<group>"; };
+		00F833A31D6658A90027C29C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00F833A61D66600D0027C29C /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryAPI.swift; path = ../LibraryAPI.swift; sourceTree = "<group>"; };
+		00F833A81D679AFF0027C29C /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		18B430DFB47C9CE36B8D63B8 /* Pods-HiBentley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiBentley.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiBentley/Pods-HiBentley.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA926A89E8FA2681240D869 /* Pods-HiBentley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiBentley.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiBentley/Pods-HiBentley.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639E9C95116A3872FF7D8614 /* Pods_HiBentley.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				001375DD1D5C61AB0005EC6F /* HiBentley */,
 				001375DC1D5C61AB0005EC6F /* Products */,
+				378F09E98AC7EE7D2B3DBDE9 /* Pods */,
+				057F94739831789D5242CFD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +72,51 @@
 			isa = PBXGroup;
 			children = (
 				001375DE1D5C61AB0005EC6F /* AppDelegate.swift */,
-				001375E01D5C61AB0005EC6F /* FirstViewController.swift */,
-				001375E21D5C61AB0005EC6F /* SecondViewController.swift */,
+				00F833A61D66600D0027C29C /* LibraryAPI.swift */,
+				006695E81D658F54005470C3 /* CDS.swift */,
+				00F833A51D6658B60027C29C /* plists */,
+				00F833AA1D679B1A0027C29C /* ViewControllers */,
 				001375E41D5C61AB0005EC6F /* Main.storyboard */,
 				001375E71D5C61AB0005EC6F /* Assets.xcassets */,
 				001375E91D5C61AB0005EC6F /* LaunchScreen.storyboard */,
-				001375EC1D5C61AB0005EC6F /* Info.plist */,
 			);
 			path = HiBentley;
+			sourceTree = "<group>";
+		};
+		00F833A51D6658B60027C29C /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				001375EC1D5C61AB0005EC6F /* Info.plist */,
+				00F833A31D6658A90027C29C /* GoogleService-Info.plist */,
+			);
+			name = plists;
+			sourceTree = "<group>";
+		};
+		00F833AA1D679B1A0027C29C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00F833A81D679AFF0027C29C /* QRViewController.swift */,
+				001375E01D5C61AB0005EC6F /* VoiceViewController.swift */,
+				001375E21D5C61AB0005EC6F /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		057F94739831789D5242CFD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0040474277DC04E00F4548CA /* Pods_HiBentley.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378F09E98AC7EE7D2B3DBDE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18B430DFB47C9CE36B8D63B8 /* Pods-HiBentley.debug.xcconfig */,
+				9CA926A89E8FA2681240D869 /* Pods-HiBentley.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 001375EF1D5C61AB0005EC6F /* Build configuration list for PBXNativeTarget "HiBentley" */;
 			buildPhases = (
+				8139E00A3B1309B5510F6A92 /* [CP] Check Pods Manifest.lock */,
 				001375D71D5C61AA0005EC6F /* Sources */,
 				001375D81D5C61AA0005EC6F /* Frameworks */,
 				001375D91D5C61AA0005EC6F /* Resources */,
+				D5586FA8A074F5A42A8106FA /* [CP] Embed Pods Frameworks */,
+				F8FECFB63436BD827ED9C4F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +154,12 @@
 				TargetAttributes = {
 					001375DA1D5C61AA0005EC6F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E8CT95CTF8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				001375EB1D5C61AB0005EC6F /* LaunchScreen.storyboard in Resources */,
+				00F833A41D6658A90027C29C /* GoogleService-Info.plist in Resources */,
 				001375E81D5C61AB0005EC6F /* Assets.xcassets in Resources */,
 				001375E61D5C61AB0005EC6F /* Main.storyboard in Resources */,
 			);
@@ -133,14 +195,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8139E00A3B1309B5510F6A92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5586FA8A074F5A42A8106FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiBentley/Pods-HiBentley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FECFB63436BD827ED9C4F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiBentley/Pods-HiBentley-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		001375D71D5C61AA0005EC6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001375E31D5C61AB0005EC6F /* SecondViewController.swift in Sources */,
+				001375E31D5C61AB0005EC6F /* LoginViewController.swift in Sources */,
+				00F833A71D66600D0027C29C /* LibraryAPI.swift in Sources */,
 				001375DF1D5C61AB0005EC6F /* AppDelegate.swift in Sources */,
-				001375E11D5C61AB0005EC6F /* FirstViewController.swift in Sources */,
+				006695E91D658F54005470C3 /* CDS.swift in Sources */,
+				001375E11D5C61AB0005EC6F /* VoiceViewController.swift in Sources */,
+				00F833A91D679AFF0027C29C /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,23 +364,33 @@
 		};
 		001375F01D5C61AB0005EC6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B430DFB47C9CE36B8D63B8 /* Pods-HiBentley.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HiBentley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bentleymotors.HiBentley;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		001375F11D5C61AB0005EC6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA926A89E8FA2681240D869 /* Pods-HiBentley.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HiBentley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bentleymotors.HiBentley;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -290,6 +413,7 @@
 				001375F11D5C61AB0005EC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
